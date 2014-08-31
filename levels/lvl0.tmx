@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="100" height="100" tilewidth="32" tileheight="32" backgroundcolor="#aaffff">
+ <tileset firstgid="1" name="grounds" tilewidth="32" tileheight="32">
+  <image source="../media/pic/first levels/grounds.png" width="756" height="347"/>
+ </tileset>
+ <tileset firstgid="231" name="cloud2" tilewidth="347" tileheight="211">
+  <image source="../media/pic/first levels/cloud2.png" width="347" height="211"/>
+ </tileset>
+ <layer name="Background" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJztzgENAAAIA6D3L2oNY3w6SEACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB3TDsAAAC8t90tAOg=
+  </data>
+ </layer>
+ <layer name="Ground" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJztV+fOIzEIzNvnx/Xe25ueT6dPsiwDQ3PJeiSUxGvKMgac++0/7oDcmr1W9GxGw+uD0kNsts+RXFr3eN8xm4faT+tzJaHibN9BypmVl8ia0r63xRfln3re22eJvafD+ZF8UbpaaPMaVXcUF9IaF6tUHxQXnB0qLsR39tmO4uLJFve7Xe/lsre3l0euHiR+0Pe19goPF1HQcCGd4dYGkmupbqS4qDisZ3tWTdQ2OdtIv5ByS/Gj6UXSM6leEbsrc0GdVYkPjovefsm2tC71OApeDqO5qO1KvaTVodakuSjlQOPPOltQv5TeKC64vPV0EVsct9RZ4OL0zBZqb+ZcQoGeX07fYp/ag9qlbFj3at51Vo9CbSD2ObsePiLi1Z6paETw0Nqj1hC73vOKwNLfRvHQxuH1RfGKvAu1B+EQjY2rS8l+Ng+U30gf0vzu6Wn40M5djY3MmkB6dqQfagZE8mHpfejzrJqwng2PL24eR/FhzbOkj9ayFp6zYfUlcaC5u7Tr7R7OhgSkJjJ6tzYeqy+05q39RXMXkMDZp55rgc6cGbyjvYqzGXG+JNve3Gjn/kgeKJ/RfMyuCcvda3RNtPu534h9dE0TA1UTGpuWnM7igbOj8dObP9bzwPGgsTdSL8tObU/j796IxZe1Bri4LHF4YM0BYlfyqdGRbFH1obVjhTd/WTzU9iXfGh3UzgweovSzuJBsR/DhmfuW/UgMWt2o+zfqD4kF1eF0Z/DgvTfXv0eA+x9BPc+sqVH3Ro3/UVxwvnp8SP3T879k9v3TEztqG7kLRPBB+UHv0lHnL/L+G302NP2BW+d44Z5bepoHkf9hIueW5f7CrXF13J7vWTxE3Z2j78TWM8Kt9e4Zvd+jeXiyG6ETcQ9D5wNij1vz3DeyeNDEUO+PnNcRtUDZldasczoDln68Aw+1fe43uudpPYsHzi+1N4oH7Zz0AOWDul/1nkdDYz/yziTNzgxozn77fUZ83L6oWT2Dh9oX4nNGfBouPPr1/lk8aH2Orgk0poia6M2G0Txowc2PLD+WfV4eVgb1Pycj7pE1sSoPvXxT9ZpZH6NqYgUe0Hyj+rdb3HuMqAnPu0fA6leKO7o+smtiFAeaHqOxgej0vmuRWRMZHETkOyPGCD48PHD6WXmKOHdZNerhw1KDiH5Ub/DmacZ8svKR0ZuQd886nzPvBm0cve+oDvXcw0NkX5dinJn7HjR8ILGjPIzIOedvVaB8WLgafeY53zugjVV7/6ltIHnOzM+O+W/RO8/1d+3ZHsnDI+S/hZR/Tq+n29sTlatHzH8Lqj64vjWKhyvkvwXab6i9PV1P7q6W/xbSWe+tU78jeLg62lwi853S9fo+oPmg7sGeHF5xHmih6UWaPFr1rg6qDupnmvvvyb0Pba9C/vNR+gd+9PhAdQ4P8ZD605kDY2Hh41FlBbRxrBLXDKzA1+EDxwi+dulXOyAi/l3qY2ee/gGNm6qPXbBrTVHxUfWx4zu2WP0devFo+9Uj9PrZs5DLVcb82J2vmZgxzw9HNO7Ep7Q/I47Dj56PUXiEOWXBqnwgiJifq2FnPixYna+r8SFhNk+HDwyja+rwYUf03LoT3w/ioOHpLuisII+K3nvuUB+zz8PIM7cDH1dC268O5qKtjyv28ZWg6VeHq3xEzY9TWzEYNc9n3192k1v1eTAP5767Fg4fa+H0q/Vw+FgL5066Hp4VeV7kRZGXRV4VeV3kTZG3Rd4VeV/kQ5GPRT4V+VzkS5GvRb4V+V7kR5GfRX4V+V3kz7Ftsv0X/6UlFA==
+  </data>
+ </layer>
+ <objectgroup color="#00ff00" name="spawn points" width="100" height="100">
+  <object name="0" type="Spawn" x="32" y="3033" width="96" height="128"/>
+ </objectgroup>
+ <objectgroup color="#ffff00" name="Music" width="100" height="100" visible="0">
+  <object name="media/snd/first levels/very beginning\beginning of calculus (needs snare drums and drum rolls).mp3" type="Music" x="0" y="0" width="3200" height="3200"/>
+ </objectgroup>
+ <objectgroup color="#aa55ff" name="exit points" width="100" height="100">
+  <object name="lvl0.tmx" type="door" x="2944" y="2976" width="160" height="192"/>
+ </objectgroup>
+ <objectgroup color="#aa5500" name="Collisions" width="100" height="100">
+  <properties>
+   <property name="Collide" value="True"/>
+  </properties>
+  <object x="0" y="3168" width="3200" height="32"/>
+ </objectgroup>
+</map>
