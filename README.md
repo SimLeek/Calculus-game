@@ -24,3 +24,5 @@ create a menu and menu state.
 
 create minimal context sensitive Heads-Up Display. (Things like the arrows and dialogue will be displayed here)
 
+Add jumping, using j for jerk.
+
