@@ -6,21 +6,92 @@
  <tileset firstgid="231" name="cloud2" tilewidth="347" tileheight="211">
   <image source="../media/pic/first levels/cloud2.png" width="347" height="211"/>
  </tileset>
+ <tileset firstgid="232" name="cloud3" tilewidth="405" tileheight="272">
+  <image source="../media/pic/first levels/cloud3.png" width="405" height="272"/>
+ </tileset>
+ <tileset firstgid="233" name="cloud4" tilewidth="287" tileheight="165">
+  <image source="../media/pic/first levels/cloud4.png" width="287" height="165"/>
+ </tileset>
+ <tileset firstgid="234" name="cloud5" tilewidth="130" tileheight="96">
+  <image source="../media/pic/first levels/cloud5.png" width="130" height="96"/>
+ </tileset>
+ <tileset firstgid="235" name="cloud6" tilewidth="267" tileheight="129">
+  <image source="../media/pic/first levels/cloud6.png" width="267" height="129"/>
+ </tileset>
+ <tileset firstgid="236" name="cloud7" tilewidth="370" tileheight="264">
+  <image source="../media/pic/first levels/cloud7.png" width="370" height="264"/>
+ </tileset>
+ <tileset firstgid="237" name="cloud8" tilewidth="212" tileheight="124">
+  <image source="../media/pic/first levels/cloud8.png" width="212" height="124"/>
+ </tileset>
+ <tileset firstgid="238" name="bush1" tilewidth="32" tileheight="32">
+  <image source="../media/pic/first levels/bush1.png" width="171" height="156"/>
+ </tileset>
+ <tileset firstgid="258" name="bush2" tilewidth="32" tileheight="32">
+  <image source="../media/pic/first levels/bush2.png" width="152" height="155"/>
+ </tileset>
+ <tileset firstgid="274" name="bush3" tilewidth="32" tileheight="32">
+  <image source="../media/pic/first levels/bush3.png" width="144" height="150"/>
+ </tileset>
+ <tileset firstgid="290" name="bush4" tilewidth="32" tileheight="32">
+  <image source="../media/pic/first levels/bush4.png" width="163" height="164"/>
+ </tileset>
+ <tileset firstgid="315" name="shrub1" tilewidth="32" tileheight="32">
+  <image source="../media/pic/first levels/shrub1.png" width="109" height="88"/>
+ </tileset>
+ <tileset firstgid="321" name="shrub2" tilewidth="32" tileheight="32">
+  <image source="../media/pic/first levels/shrub2.png" width="84" height="82"/>
+ </tileset>
+ <tileset firstgid="325" name="shrub3" tilewidth="32" tileheight="32">
+  <image source="../media/pic/first levels/shrub3.png" width="96" height="82"/>
+ </tileset>
+ <tileset firstgid="331" name="shrub4" tilewidth="32" tileheight="32">
+  <image source="../media/pic/first levels/shrub4.png" width="77" height="91"/>
+ </tileset>
+ <tileset firstgid="335" name="tree1" tilewidth="32" tileheight="32">
+  <image source="../media/pic/first levels/tree1.png" width="111" height="268"/>
+ </tileset>
+ <tileset firstgid="359" name="tree2" tilewidth="32" tileheight="32">
+  <image source="../media/pic/first levels/tree2.png" width="107" height="265"/>
+ </tileset>
+ <tileset firstgid="383" name="tree3" tilewidth="32" tileheight="32">
+  <image source="../media/pic/first levels/tree3.png" width="73" height="225"/>
+ </tileset>
+ <tileset firstgid="397" name="tree4" tilewidth="32" tileheight="32">
+  <image source="../media/pic/first levels/tree4.png" width="100" height="234"/>
+ </tileset>
+ <layer name="bg2" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJztz9lSFkEMhuHpK0QFQWVRBBGUVdmUHRUUBNlUQDbv1O8405lJV/1WcfA+VTlIUumkqwoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA0GmvU1WNKyZS52aa+l2qPVA8LNjXaf/7hkO9+8O8fZDydeuN+m8VkwW3tc009R+p1q3oCezz/rChfDPVc1v3RG6IvpW791hxYmaPnLo1pf60YqZgd9tMU/+xar2KvsA+7w9byrdTPbd1T+SG6Fu5e88UP83sqVO3ZtWfU7wr2N0209R/otpTxbPAPu8Pn5R/TvXc1j2RG6Jv5e79rTg3s7+cuvVe/XnFQsHutpmmfr9qA4rBwD7vD1+U76R6buueyA3Rt3L3Xir+mNkLp24tqr+kWC7Y3TbT1B9S7bniRWCf94dd5V9TPbd1T+SG6Fu5e68VN2b2yqlbH9T/qFgp2N0209QfVu2lYiSwz/vDN+V7qZ7buidyQ/St3L13ir9m9tapW6vqrynWC3a3zTT1R1V7pRgL7PP+sK/8e6rntu6J3BB9K3cv7pd/8Fd4oQ==
+  </data>
+ </layer>
  <layer name="Background" width="100" height="100">
   <data encoding="base64" compression="zlib">
-   eJztzgENAAAIA6D3L2oNY3w6SEACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB3TDsAAAC8t90tAOg=
+   eJzt0VlPFEEYhtEZkF1W2VT2XVBBQFH//3/xThAFAdle76czncqEJTkneS6oob7q6m40AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADg+fjx2A8AUGii2Wi8SpNpKv3M2nE6Sb/SaY0ZK9m3mtbSetpott/T6pyu7OtOL1JPjRntlMyrukvJeykxnfNm0mx6nX5n7U86S+fpb40Zm9m3ld6l7bRT4+6tzunNvr7UnwY68D1K5lXdpeS9lHiT896muTSfLrJ2ma7Sv3RdY8b77PuQPqbdtFfj7q3OGcy+ofQyDXfge5TMq7pLyXspsZDzFtNSWk43WbtNd/9/zN/NGvf4lP/ZTwfpMH2usafVOSNpNI2l8Q58j5J5VXcpeS+P5Uue7Sh9Td/S9yf8rO081F3uAciCQRY=
+  </data>
+ </layer>
+ <layer name="bg0" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJzt0EkOwjAQBMDkXez7zv+fQ18iRQglIRZwoErqk2c8Y1cVAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPzerq6qfXJIVsm6/k5vY5KeaTIb0dueX3L3JefXjpqSHYfOaBxTc0rOySbZvjHzVW/fHz2bp26RLEe8tT2/5O5bzu8dNSU7Dp3xKX1/9O8e2FsPug==
   </data>
  </layer>
  <layer name="Ground" width="100" height="100">
   <data encoding="base64" compression="zlib">
-   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
+   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
   </data>
  </layer>
  <objectgroup color="#00ff00" name="spawn points" width="100" height="100">
   <object name="0" type="Spawn" x="32" y="3033" width="96" height="128"/>
  </objectgroup>
- <objectgroup color="#ffff00" name="Music" width="100" height="100" visible="0">
-  <object name="media/snd/first levels/very beginning\beginning of calculus (needs snare drums and drum rolls).mp3" type="Music" x="0" y="0" width="3200" height="3200"/>
+ <objectgroup color="#ffff00" name="Music" width="100" height="100">
+  <properties>
+   <property name="Music" value="True"/>
+  </properties>
+  <object x="0" y="0" width="3200" height="3200">
+   <properties>
+    <property name="Music" value="media/snd/first levels/very beginning/lvl1.ogg"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup color="#aa55ff" name="exit points" width="100" height="100">
   <object name="lvl0.tmx" type="door" x="2944" y="2976" width="160" height="192"/>
@@ -30,5 +101,32 @@
    <property name="Collide" value="True"/>
   </properties>
   <object x="0" y="3168" width="3200" height="32"/>
+ </objectgroup>
+ <objectgroup name="Interaction" width="100" height="100">
+  <object x="0" y="2656" width="480" height="512">
+   <properties>
+    <property name="Repeat" value="True"/>
+    <property name="Talk" value="In"/>
+    <property name="p0" value="And so begins the journey of the great Calculus Man. People will forever remember this day as the first day of the most epic journey that has ever been conceived of by man."/>
+    <property name="p1" value="But first, you have to learn how to walk. The arrow keys don't work, do thay? That's right, this isn't your regular platformer. No, this is a calculus platformer!"/>
+    <property name="p2" value="Okay okay... I imagine you're getting kind of frustrated right now. Just press type 'v5' and click on the second tree to your right."/>
+    <property name="w0" value="15"/>
+    <property name="w1" value="15"/>
+    <property name="w2" value="15"/>
+   </properties>
+  </object>
+  <object x="480" y="2656" width="480" height="512">
+   <properties>
+    <property name="Talk" value="In"/>
+    <property name="p0" value="Bam! Movement!"/>
+    <property name="p1" value="I bet you're confused about why it's so hard to simply walk, or in this case, skip. "/>
+    <property name="p2" value="Well, the real reason is because the controls are meant to conform to the names of certain variables in kinematics. The 'v' you typed is for velocity, and '5' was the speed. If you like, you could just think of all this as much more advanced movement controls."/>
+    <property name="p3" value="Anyway, head further to the right, this time by pressing 'a5'. Don't worry about going too far."/>
+    <property name="w0" value="2"/>
+    <property name="w1" value="10"/>
+    <property name="w2" value="20"/>
+    <property name="w3" value="10"/>
+   </properties>
+  </object>
  </objectgroup>
 </map>

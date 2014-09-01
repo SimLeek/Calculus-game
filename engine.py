@@ -69,15 +69,29 @@ class IsoGame:
 	        l=self.tmx.layers[k]	
 	        for i in l:
                     recto=pygame.Rect(i.x,i.y,i.width,i.height)
+		    #print i
                     if hasattr(l,'Collide') and tr.colliderect(recto):
                         undo=True
 			self.vy=0
-		    if hasattr(l,'Music') and tr.colliderect(recto):
-		        if self.music!=i.name:
-			    print i.name
-			    self.music=i.name
-			    pygame.mixer.music.fadeout()
+		    if hasattr(i,'Music') and recto.contains(tr):
+			#print 'music'
+		        if self.music!=i.Music:
+			    print i.Music
+			    self.music=i.Music
+			    pygame.mixer.music.stop()
 			    self.startMusic()
+		    if hasattr(i,'Talk'):
+			if i.Talk=='In':
+			    if recto.contains(tr):
+				pnum=0
+				wnum=0
+				while hasattr(i,'p'+str(pnum)):
+				    msg=getattr(i,'p'+str(pnum))
+				    msgSurf=self.font.render(msg,False,(255,255,255))
+				    msgRect=msgSurf.get_rect()
+				    msgRect.topleft=(10,20+50*pnum)
+				    self.WSurf.blit(msgSurf,msgRect)
+				    pnum+=1
 
 #        for i in o[2]:
 #            recto=pygame.Rect(i.x,i.y,i.width,i.height)
@@ -98,7 +112,7 @@ class IsoGame:
         self.x=self.myRect.x
         self.y=self.myRect.y
 
-	print self.x,self.y
+	#print self.x,self.y
 
     def loop(self):
         while True:
@@ -151,7 +165,7 @@ class IsoGame:
 if __name__ == '__main__':
     game=IsoGame()
     game.buffLvl()
-    #game.music="media/snd/first levels/very beginning/beginning of calculus (needs snare drums and drum rolls).mp3"
+    #game.music="media/snd/first levels/very beginning/abandoned spaceship interior.mp3"
     #game.startMusic()
     game.loop()
 
